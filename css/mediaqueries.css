@@ -43,11 +43,7 @@
     height: 275px;
     margin: 0 auto 2rem;
   }
-  #pic-about {
-    width: 375px;
-    height: 375px;
-    margin: 0 auto 2rem;
-  }
+ 
   .about-containers {
     margin-top: 0;
   }
@@ -98,11 +94,7 @@
     height: 46vw;
     justify-content: center;
   }
-  #pic-about {
-    width: auto;
-    height: 56vw;
-    justify-content: center;
-  }
+ 
   .section__text__p2 {
     font-size: 1.25rem;
   }
