@@ -44,6 +44,17 @@
   .about-containers {
     margin-top: 0;
   }
+  #experience{
+    padding:2%;
+
+  }
+  #about{
+    padding:2%;
+  }
+  #projects{
+    padding:2%;
+
+  }
 }
 
 @media screen and (max-width: 600px) {
