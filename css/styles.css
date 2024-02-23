@@ -238,7 +238,7 @@ section {
 .photo {
   border-radius: 25%;
   border: 10px solid rgb(0, 0, 0);
-  animation: neon-border-pic infinite alternate 0.5413856409s ease-in-out;
+  animation: neon-border-pic infinite alternate 0.8s ease-in-out;
 }
 
 .section__text {
