@@ -226,7 +226,7 @@ section {
   justify-content: center;
   gap: 5rem;
   height: 80vh;
-  background: rgb(86, 9, 64);
+   background: rgb(86, 9, 64);
   border: 5px solid rgb(0, 0, 0);
   animation: neon-border infinite alternate 0.5413856409s ease-in-out;
 }
