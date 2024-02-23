@@ -206,6 +206,9 @@ a:hover {
 /* SECTIONS */
 section {
   padding-top: 4vh;
+  padding-left: 4vh;
+  padding-right: 4vh;
+  padding-bottom:4vh;
   height: 96vh;
   margin: 0 10rem;
   box-sizing: border-box;
@@ -333,7 +336,9 @@ section {
 #about {
   position: relative;
   margin-top: 30vh;
-  background: skyblue;
+  background: rgb(86, 9, 64);
+  border: 5px solid rgb(0, 0, 0);
+  animation: neon-border infinite alternate 0.5413856409s ease-in-out;
 }
 
 .about-containers {
@@ -385,7 +390,9 @@ section {
 #experience {
   position: relative;
   margin-top: 30vh;
-  background: skyblue;
+  background: rgb(86, 9, 64);
+  border: 5px solid rgb(0, 0, 0);
+  animation: neon-border infinite alternate 0.5413856409s ease-in-out;
 }
 
 .experience-sub-tittle {
@@ -426,7 +433,9 @@ article .icon {
 #projects {
   position: relative;
   margin-top: 60vh;
-  background: skyblue;
+  background: rgb(86, 9, 64);
+  border: 5px solid rgb(0, 0, 0);
+  animation: neon-border infinite alternate 0.5413856409s ease-in-out;
 }
 
 .color-container {
@@ -457,7 +466,9 @@ article .icon {
   flex-direction: column;
   height: 70vh;
   margin-top: 30vh;
-  background: skyblue;
+  background: rgb(86, 9, 64);
+  border: 5px solid rgb(0, 0, 0);
+  animation: neon-border infinite alternate 0.5413856409s ease-in-out;
 }
 
 .contact-info-upper-container {
