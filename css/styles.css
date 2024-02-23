@@ -57,9 +57,9 @@ body {
   font-family: "Ubuntu", sans-serif;
   background: linear-gradient(
     to bottom right,
-    rgb(0, 0, 0),
-    rgb(3, 3, 40),
-    rgb(46, 5, 5)
+    rgb(41, 39, 39),
+    rgb(5, 5, 72),
+    rgb(112, 6, 6)
   );
   background-size: 900% 900%;
   animation: gradientAnimation 5s in ease infinite;
@@ -241,7 +241,7 @@ section {
 .photo {
   border-radius: 25%;
   border: 10px solid rgb(0, 0, 0);
-  animation: neon-border-pic infinite alternate 0.8s ease-in-out;
+  animation: neon-border infinite alternate 0.8s ease-in-out;
 }
 
 .section__text {
@@ -477,7 +477,7 @@ article .icon {
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: (163, 163, 163);
-  background: (250, 250, 250);
+  background: rgb(28, 11, 79);
   margin: 2rem auto;
   padding: 0.5rem;
 }
