@@ -31,6 +31,23 @@
     box-shadow: none;}
 }
 
+@keyframes neon-border-pic {
+  0%{border: 2px solid #000000a9;
+  box-shadow: 0px 0px 10px 0px #000000a9, inset 0px 0px 10px 0px #ff05bca9;}
+
+  89%{border: 2px solid #000000a9;
+    box-shadow: 0px 0px 5px 0px #000000a9, inset 0px 0px 10px 0px #ff05bca9;}
+
+  90%{border: 2px solid transparent;
+    box-shadow: none;}
+
+  99%{border: 2px solid #000000a9;
+    box-shadow: 0px 0px 5px 0px #000000a9, inset 0px 0px 10px 0px #ff05bca9;}
+
+  100%{border: 2px solid transparent;
+    box-shadow: none;}
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -220,6 +237,8 @@ section {
 
 .photo {
   border-radius: 25%;
+  border: 10px solid rgb(0, 0, 0);
+  animation: neon-border-pic infinite alternate 0.5413856409s ease-in-out;
 }
 
 .section__text {
