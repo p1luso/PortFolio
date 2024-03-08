@@ -35,7 +35,14 @@
     display: flex;
   }
 
- 
+  .experience-details-container{
+    margin-top: 2rem;
+  }
+  
+  .text-container p{
+    padding-bottom:5rem;
+  }
+
   #profile,
   .section-container {
     display: block;
