@@ -368,10 +368,11 @@ section {
   animation: neon-border infinite alternate 0.5413856409s ease-in-out;
 }
 
+
 .about-containers {
   gap: 2rem;
   margin-bottom: 2rem;
-  margin-top: 5rem;
+  margin-top: 2rem;
 }
 
 .about-details-containers {
