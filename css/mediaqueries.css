@@ -6,6 +6,24 @@
   .about-containers {
     flex-wrap: wrap;
   }
+  #experience{
+    padding:2%;
+
+  }
+  #about{
+    padding:2%;
+  }
+  #projects{
+    padding:2%;
+
+  }
+
+  section,
+  .section-container {
+    height: fit-content;
+  }
+
+  
 }
 
 @media screen and (max-width: 1200px) {
@@ -134,6 +152,8 @@
   .nav-links li a {
     font-size: 0,5rem;
   }
+
+
 
 
 }
