@@ -144,16 +144,32 @@
   .text-container {
     text-align: justify;
   }
+
+  
 }
 
 @media screen and (max-width: 470px) {
 
-  .contact-info-container p,
-  .nav-links li a {
-    font-size: 0,5rem;
+  .contact-info-upper-container
+  {
+    margin:2rem 0.5rem;
+  }
+  .contact-info-container img{
+    width: 4vh;
+    height: 4vh;
   }
 
+  .contact-info-container p{
+    font-size: x-small;
+  }
+
+}
 
 
+@media screen and (max-width: 350px) {
+
+  .contact-info-container p{
+    font-size: xx-small;
+  }
 
 }

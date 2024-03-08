@@ -217,8 +217,8 @@ section {
   padding-top: 4vh;
   padding-left: 4vh;
   padding-right: 4vh;
-  padding-bottom:4vh;
-  height: 96vh;
+  padding-bottom:1vh;
+  height: fit-content;
   margin: 0 10rem;
   box-sizing: border-box;
   min-height: fit-content;
@@ -235,7 +235,7 @@ section {
   justify-content: center;
   gap: 5rem;
   height: 80vh;
-   background: rgb(86, 9, 64);
+  background: rgb(86, 9, 64);
   border: 5px solid rgb(0, 0, 0);
   animation: neon-border infinite alternate 0.5413856409s ease-in-out;
 }
@@ -288,8 +288,9 @@ section {
   text-align: center;
   color:white;
   text-shadow: 0px 0px 10px #ff05bc;
-
+  
 }
+
 
 #socials-container {
   display: flex;
@@ -403,7 +404,6 @@ section {
 .section-container {
   gap: 1rem;
   height: 80%;
-  margin-top: -10vh;
 }
 
 .section__pic-container {
