@@ -308,7 +308,11 @@ section {
   box-shadow: 0px 0px 10px #f6f4f5;
   border-radius: 50%;
   background-color: white;
+}
+
+.icon-profile{
   margin-top:1rem;
+
 }
 
 .icon {
